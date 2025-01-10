@@ -8,9 +8,9 @@ This script is if pgloader doesn't work for you like in the guide mentioned belo
 Backup your sonarr database by going here: IP_OF_SONARR_INSTANCE:PORT/system/backup and click Backup Now.
 Click the latest backup to download it to your computer.
 You're going to need the sonarr.db file later.
-So follow this guide like normal: https://wiki.servarr.com/sonarr/postgres-setup.
+So follow this guide like normal: [https://wiki.servarr.com/sonarr/postgres-setup](https://wiki.servarr.com/sonarr/postgres-setup).
 When you get to the migrating data step, come here and follow the rest of this guide.
-Download this program that allows you to dump an sqlite database/tables to csv files: https://sqlitebrowser.org/dl/
+Download this program that allows you to dump an sqlite database/tables to csv files: [https://sqlitebrowser.org/dl/](https://sqlitebrowser.org/dl/)
 Open up sonarr.db in sqlite browser. Go to File -> Export -> Table(s) as csv files.
 Select all tables except for sqlite_sequence. 
 Make sure Column Names in First Line is checked and click OK.
