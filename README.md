@@ -57,6 +57,7 @@ DELETE from "SubtitleFiles";
 DELETE from "Tags";
 DELETE from "Users";
 DELETE from "VersionInfo";</code>
+
 Make sure the username, password, and host is configured on this line:
 <code>engine = create_engine('postgresql://username:password@127.0.0.1:5432/sonarr-main')</code>
 Run the python module using idle or terminal if it doesn't make it to the end, then run all of the delete statements again, fix the error in one of the csv files and try running the python module once more.
